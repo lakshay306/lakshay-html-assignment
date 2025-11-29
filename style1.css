@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background:#f3eefc;
+    padding:20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.movie-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    gap: 20px;
+}
+
+.card{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card img{
+    width: 100%;
+    aspect-ratio: 3 / 4;   /* FIX: Same shape for all images */
+    object-fit: cover;     /* FITS perfectly */
+    border-radius: 8px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:6px 14px;
+    background:#3498db;
+    color:white;
+    font-size:14px;
+    border-radius:5px;
+    text-decoration:none;
+}

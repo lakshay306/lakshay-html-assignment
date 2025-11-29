@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+    background:#f4f1fc;
+    padding:20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.p-card{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.p-card h1{
+    margin:10px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 16px;
+    background:#5a3af3;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
